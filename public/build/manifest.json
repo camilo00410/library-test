@@ -1,7 +1,93 @@
 {
+  "resources/login-assets/fonts/poppins/Poppins-Regular.ttf": {
+    "file": "assets/Poppins-Regular.2425ebbc.ttf",
+    "src": "resources/login-assets/fonts/poppins/Poppins-Regular.ttf"
+  },
+  "resources/login-assets/fonts/poppins/Poppins-Bold.ttf": {
+    "file": "assets/Poppins-Bold.210933fb.ttf",
+    "src": "resources/login-assets/fonts/poppins/Poppins-Bold.ttf"
+  },
+  "resources/login-assets/fonts/poppins/Poppins-Medium.ttf": {
+    "file": "assets/Poppins-Medium.45870260.ttf",
+    "src": "resources/login-assets/fonts/poppins/Poppins-Medium.ttf"
+  },
+  "resources/login-assets/fonts/montserrat/Montserrat-Bold.ttf": {
+    "file": "assets/Montserrat-Bold.c4c8cb57.ttf",
+    "src": "resources/login-assets/fonts/montserrat/Montserrat-Bold.ttf"
+  },
+  "resources/login-assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot": {
+    "file": "assets/fontawesome-webfont.7bfcab6d.eot",
+    "src": "resources/login-assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot"
+  },
+  "resources/login-assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2": {
+    "file": "assets/fontawesome-webfont.2adefcbc.woff2",
+    "src": "resources/login-assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2"
+  },
+  "resources/login-assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff": {
+    "file": "assets/fontawesome-webfont.ba0c59de.woff",
+    "src": "resources/login-assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff"
+  },
+  "resources/login-assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf": {
+    "file": "assets/fontawesome-webfont.aa58f33f.ttf",
+    "src": "resources/login-assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf"
+  },
+  "resources/login-assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg": {
+    "file": "assets/fontawesome-webfont.ad615792.svg",
+    "src": "resources/login-assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg"
+  },
   "resources/js/app.js": {
     "file": "assets/app.2fa00421.js",
     "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/login-assets/js/main.js": {
+    "file": "assets/main.ca454147.js",
+    "src": "resources/login-assets/js/main.js",
+    "isEntry": true
+  },
+  "resources/login-assets/vendor/bootstrap/js/popper.js": {
+    "file": "assets/popper.f16f16fc.js",
+    "src": "resources/login-assets/vendor/bootstrap/js/popper.js",
+    "isEntry": true
+  },
+  "resources/login-assets/vendor/bootstrap/js/bootstrap.min.js": {
+    "file": "assets/bootstrap.min.56f5cf0e.js",
+    "src": "resources/login-assets/vendor/bootstrap/js/bootstrap.min.js",
+    "isEntry": true
+  },
+  "resources/login-assets/css/main.css": {
+    "file": "assets/main.802d5d93.css",
+    "src": "resources/login-assets/css/main.css",
+    "isEntry": true
+  },
+  "resources/login-assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css": {
+    "file": "assets/font-awesome.min.4528ff54.css",
+    "src": "resources/login-assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css",
+    "isEntry": true
+  },
+  "resources/login-assets/vendor/animate/animate.css": {
+    "file": "assets/animate.5e3bb91c.css",
+    "src": "resources/login-assets/vendor/animate/animate.css",
+    "isEntry": true
+  },
+  "resources/login-assets/vendor/select2/select2.min.css": {
+    "file": "assets/select2.min.cab274a5.css",
+    "src": "resources/login-assets/vendor/select2/select2.min.css",
+    "isEntry": true
+  },
+  "resources/login-assets/vendor/css-hamburgers/hamburgers.min.css": {
+    "file": "assets/hamburgers.min.8f224ef3.css",
+    "src": "resources/login-assets/vendor/css-hamburgers/hamburgers.min.css",
+    "isEntry": true
+  },
+  "resources/login-assets/css/util.css": {
+    "file": "assets/util.1685b13c.css",
+    "src": "resources/login-assets/css/util.css",
+    "isEntry": true
+  },
+  "resources/login-assets/vendor/bootstrap/css/bootstrap.min.css": {
+    "file": "assets/bootstrap.min.760cce91.css",
+    "src": "resources/login-assets/vendor/bootstrap/css/bootstrap.min.css",
     "isEntry": true
   },
   "resources/sass/app.scss": {
