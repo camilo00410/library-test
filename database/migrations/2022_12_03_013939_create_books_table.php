@@ -16,9 +16,9 @@ return new class extends Migration
         Schema::create('books', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('isbn');
-            $table->string('publication_p');
-            $table->year('publication_date');
+            $table->string('isbn')->unique();
+            $table->year('publication_year');
+            $table->string('editorial');
             $table->string('language');
             $table->integer('pages');
             $table->string('cover_photo_path', 2048);

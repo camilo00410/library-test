@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Storage;
 
 class BookSeeder extends Seeder
 {
@@ -14,6 +15,9 @@ class BookSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Storage::deleteDirectory('img');
+        Storage::makeDirectory('img');
+        
+        \App\Models\Book::factory(100)->create();
     }
 }

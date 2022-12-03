@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -13,6 +14,14 @@ class Book extends Model
     const UNAVAILABLE = 0;
 
     protected $fillable = ['status'];
+
+    protected function isbn(): Attribute
+    {
+        return new Attribute(
+            // get: fn($value) => ucwords($value),
+            // set: fn($value) => str_replace('-', ' ',$value)
+        );
+    }
 
     public function comments()
     {

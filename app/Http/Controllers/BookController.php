@@ -7,7 +7,13 @@ use Illuminate\Http\Request;
 
 class BookController extends Controller
 {
-    public function index(Book $book){
-        return view('books.index', compact('book'));
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
+    public function index(){
+        $books = Book::paginate(10);
+        return view('books.index', compact('books'));
     }
 }
