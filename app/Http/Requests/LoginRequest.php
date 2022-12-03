@@ -42,7 +42,7 @@ class LoginRequest extends FormRequest
             'email.required' => 'Correo electronico requerido.',
             'email.string' => 'El formato del correo no es válido.',
             'email.email' => 'El formato del correo no es válido.',
-            'email.max' => 'El nombre no debe tener más de 300 caracteres.',
+            'email.max' => 'El correo no debe tener más de 300 caracteres.',
 
             'password.required' => 'Contraseña requerida.',
             'password.min' => 'la contraseña no debe tener menos de 8 caracteres.',

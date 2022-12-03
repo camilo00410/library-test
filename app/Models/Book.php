@@ -13,19 +13,19 @@ class Book extends Model
     const AVAILABLE = 1;
     const UNAVAILABLE = 0;
 
-    protected $fillable = ['status'];
+    protected $fillable = ['title', 'isbn', 'publication_year', 'author_id'];
 
     protected function isbn(): Attribute
     {
         return new Attribute(
             // get: fn($value) => ucwords($value),
-            // set: fn($value) => str_replace('-', ' ',$value)
+            set: fn($value) => str_replace('-', ' ',$value)
         );
     }
 
-    public function comments()
+    public function user()
     {
-        return $this->hasMany(BookComment::class);
+        return $this->belongsTo(User::class, 'author_id');
     }
 
     public function scopeSearch($query, $search)

@@ -18,10 +18,10 @@ return new class extends Migration
             $table->string('title');
             $table->string('isbn')->unique();
             $table->year('publication_year');
-            $table->string('editorial');
-            $table->string('language');
-            $table->integer('pages');
-            $table->string('cover_photo_path', 2048);
+            $table->string('editorial')->nullable();
+            $table->string('language')->default('Español');
+            $table->integer('pages')->default(200);
+            $table->string('cover_photo_path', 2048)->nullable();
             $table->boolean('status')->default(1);
             
             $table->unsignedBigInteger('author_id');
