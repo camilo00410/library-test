@@ -8,7 +8,8 @@
 #### `composer install`
 > Installs package dependencies
 
-### `You must duplicate and configure the .env file`
+### `.env`
+> You must duplicate and configure the .env file
 
 #### `php artisan migrate --seed`
 > Creation of tables and data
